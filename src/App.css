@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+body {
+  height: 100%;
+  width: 100%;
+  background:lavender;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+}
+
+.text{
+  background-color: lavender;
+  color: rgb(239, 129, 74);
+  font-size:xx-large;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  align-items: center;
+  text-shadow: 0 0 20px rgb(223, 125, 197);
+  margin-left: -100px;
+  position: relative;
+  bottom: -220px;
+
+}
+.text a:hover {
+  color: white;
+  text-shadow: 0 0 20px rgb(235, 25, 42);
+}
