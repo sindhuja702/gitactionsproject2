@@ -24,7 +24,7 @@ jobs:
         run: npm run build
         
       - name: DockerImage Build
-        run: docker build -t newimage:newtag -f Dockerfile .
+        run: docker build -t sindhujajagarapu/newimage:newtag -f Dockerfile .
         
       - name: Login to Docker hub
         uses: docker/login-action@v2
@@ -33,5 +33,5 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           
       - name: Push Docker Image
-        run: docker push newimage:newtag 
+        run: docker push sindhujajagarapu/newimage:newtag 
       
